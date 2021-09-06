@@ -1,0 +1,36 @@
+.bg-gradient {
+  background-image:
+    radial-gradient(
+      #c3d1c8,
+      #6f928c
+    );
+}
+
+.bg-filament-bright {
+  background-color: #c3d1c8;
+}
+
+.bg-filament {
+  background-color: #a1b8ae;
+}
+
+.bg-filament-dark {
+  background-color: #6f928c;
+}
+
+#wkwsci-logo {
+	margin: -6% 0% -3% -14%;
+}
+
+.video_wrapper {
+	position: relative;
+	padding-bottom: 56.25%; /* 16:9, for an aspect ratio of 1:1 change to this value to 100% */ 
+}
+
+iframe{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
