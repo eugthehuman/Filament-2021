@@ -1,6 +1,13 @@
 @import url("https://use.typekit.net/qej6uly.css");
 
-h1, h2, h3, h4, h5 {
+h1, h2 {
+  font-family: itc-avant-garde-gothic-pro,sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+
+h3, h4, h5, h6 {
   font-family: itc-avant-garde-gothic-pro, sans-serif;
   font-weight: 500;
   font-style: normal;
@@ -12,8 +19,22 @@ body {
   font-style: normal;
 }
 
-.bg-filament-bright {
-  background-color: #f2ead5;
+.navbar-brand {
+  font-family: itc-avant-garde-gothic-pro,sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.nav-link {
+  font-family: itc-avant-garde-gothic-pro, sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.dropdown-item {
+  font-family: itc-avant-garde-gothic-pro, sans-serif;
+  font-weight: 500;
+  font-style: normal;
 }
 
 .bg-filament {
@@ -59,27 +80,38 @@ a.text-secondary:hover, a.text-secondary:focus {
   color: #fff;
   background-color: #f2ead5;
 }
+
 #mainNav .navbar-nav li.nav-item a.nav-link {
   color: #fff;
 }
+
 #mainNav .navbar-nav li.nav-item a.nav-link:hover {
   color: #f2ead5;
 }
+
 #mainNav .navbar-nav li.nav-item a.nav-link:active, #mainNav .navbar-nav li.nav-item a.nav-link:focus {
   color: #fff;
 }
+
 #mainNav .navbar-nav li.nav-item a.nav-link.active {
   color: #f2ead5;
 }
+
 @media (min-width: 992px) {
   #mainNav .navbar-nav > li.nav-item > a.nav-link.active {
-    color: #fff;
+    color: #1c1c1e;
     background: #f2ead5;
   }
   #mainNav .navbar-nav > li.nav-item > a.nav-link.active:active, #mainNav .navbar-nav > li.nav-item > a.nav-link.active:focus, #mainNav .navbar-nav > li.nav-item > a.nav-link.active:hover {
-    color: #fff;
+    color: #1c1c1e;
     background: #f2ead5;
   }
+}
+
+.dropdown-item.active, .dropdown-item:active {
+  color: #1c1c1e;
+  text-decoration: none;
+  background-color: #f2ead5;
 }
 
 #wkwsci-logo {
@@ -97,4 +129,42 @@ iframe{
 	left: 0;
 	width: 100%;
 	height: 100%;
+}
+
+.portfolio .portfolio-item .portfolio-item-caption {
+  background-color: rgba(0, 161, 176, 0.9);
+}
+
+.footer {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  background-color: #00A1B0;
+  color: #fff;
+}
+
+.copyright {
+  background-color: #1c1c1e;
+}
+
+.portfolio-modal .close {
+  color: #1c1c1e;
+}
+
+.btn-filament {
+  color: #fff;
+  background-color: #00A1B0;
+  border-color: #00A1B0;
+}
+
+.btn-filament:hover {
+  color: #fff;
+  background-color: rgba(0, 161, 176, 0.8);
+  border-color: rgba(0, 161, 176, 0.8);
+}
+
+.btn-filament:focus, .btn-filament.focus {
+  color: #fff;
+  background-color: rgba(0, 161, 176, 0.8);
+  border-color: rgba(0, 161, 176, 0.8);
+  box-shadow: 0 0 0 0.2rem rgba(0, 161, 176, 0.3);
 }
