@@ -1,3 +1,13 @@
+@import url("https://use.typekit.net/qej6uly.css");
+
+h1, h2, h3, h4, h5 {
+  font-family: "ITC Avant Garde Gothic Pro";
+}
+
+body {
+  font-family: "Futura";
+}
+
 .bg-filament-bright {
   background-color: #f2ead5;
 }
