@@ -168,3 +168,8 @@ iframe{
   border-color: rgba(0, 161, 176, 0.8);
   box-shadow: 0 0 0 0.2rem rgba(0, 161, 176, 0.3);
 }
+
+.divider-custom .divider-custom-line {
+  background-color: #1c1c1e;
+  border-color: #1c1c1e !important;
+}
